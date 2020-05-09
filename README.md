@@ -17,7 +17,7 @@ If not, you will need to uncomment the lines pertinent to you and then run it (e
 
 To run the front end server, open a new terminal and run the comand "npm start." If running for the first time, install node_modules by first running "npm install."
 
-Then open your browser and type into the URL "localhost:3000".
+Then open your browser and type into the URL "localhost:3000". Make sure the database server app is running on port 3001 at the same time (should be running if the last line in setupDB.sh "node database/nodePostgres/postgresAPI.js" is running).
 
 
 ## IntusCare Patient Acuity Tool Summary
