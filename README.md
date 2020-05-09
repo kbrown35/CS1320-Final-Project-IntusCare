@@ -12,7 +12,7 @@ To run this application, you will need to run two servers: a frontend server and
 
 Instructions for setup of the backend server are to be found in setupDB.sh. 
 If you already have postgres server running in the background on default port 5432, 
-then you don't need to uncomment anything in this file, and you can simply run the bash script with ./sutupDB.sh. 
+then you don't need to uncomment anything in this file, and you can simply run the bash script with ./setupDB.sh. 
 If not, you will need to uncomment the lines pertinent to you and then run it (e.g. See lines 4 and 7 in setupDB.sh).
 
 To run the front end server, open a new terminal and run the comand "npm start." If running for the first time, install node_modules by first running "npm install."
