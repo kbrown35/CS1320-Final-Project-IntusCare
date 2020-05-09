@@ -1,4 +1,4 @@
-import { formcontent } from '../resources/formcontent.js';
+import { formcontent } from '../resources/formcontent-redacted.js';
 import { emptyAnswers } from '../resources/emptyAnswers.js';
 
 // Event bus that relays information between components (mainly for checking form completion and subquestion expanding)
