@@ -21,9 +21,9 @@ Then open your browser and type into the URL "localhost:3000".
 
 ## IntusCare Patient Acuity Tool Summary
 
-We worked with IntusCare to develop a Patient Acuity Tool that allows for entering and accessing patient acuity/risk information.The current acuity information is collected on paper records and is difficult to manage. Intus Care designated digitization of this tool as a priority as it could have immediate use and impact from some of the PACE organizations they are working with. We created a separate web application that will be integrated into IntusCare current Manager Portal.
+We worked with IntusCare to develop a Patient Acuity Tool that allows for entering and accessing patient acuity/risk information. The current acuity information is collected on paper records and is difficult to manage. IntusCare designated digitization of this tool as a priority as it could have immediate use and impact from some of the PACE organizations they are working with.
 
-We developed a separate web application from IntusCare that will be integrated into IntusCare current Manager Portal app. Questions in the form were modified/redacted for the final turn-in per client’s request and PACE organization Non-Disclosure Agreement (NDA).
+We developed a separate web application from IntusCare that will be integrated into IntusCare current Manager Portal application. Questions in the form were modified/redacted for the final turn-in per client’s request and PACE organization Non-Disclosure Agreement (NDA).
 
 
 
