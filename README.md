@@ -15,7 +15,7 @@ If you already have postgres server running in the background on default port 54
 then you don't need to uncomment anything in this file, and you can simply run the bash script with ./sutupDB.sh. 
 If not, you will need to uncomment the lines pertinent to you and then run it (e.g. See lines 4 and 7 in setupDB.sh).
 
-To run the front end server, open a new terminal and run the comand "npm start." If npm is not installed, also run the command "npm install."
+To run the front end server, open a new terminal and run the comand "npm start." If running for the first time, install node_modules by first running "npm install."
 
 Then open your browser and type into the URL "localhost:3000".
 
