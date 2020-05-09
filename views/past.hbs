@@ -1,0 +1,171 @@
+<header>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-custom">
+  <a class="skip_main" href="#main">Skip to main content</a>
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarContents" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="/patients"><img class="img-logo" src="/images/IntusCareLogo.png"  alt="Intus Care Logo"></a>
+  <div class="collapse navbar-collapse" id="navbarContents">
+  <div class="nav navbar-nav ml-auto">
+    <div class="navbar-nav navbox">
+        <a class="nav-item nav-link" onclick="alertNonFunctional()" href="#" id="home_button">Caregivers
+          </a>
+          <a class="nav-item nav-link active" href="/patients" id="safety-plan_button" role="navigation">Patients <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-item nav-link" href="/" id="contacts_button" role="navigation">Log out
+          </a>
+          <a class="icon" href="#">
+            <i class="fa fa-cog fa-3x" onclick="alertNonFunctional()" aria-hidden="true"></i>
+        </a>
+      </div> 
+  </div>
+</div> 
+</nav>
+</header>
+
+<div class="wrapper2">
+  <div class="row1">
+    {{> profile }}
+  </div>
+
+ <div class="column2-main" role="main" id="main" tabindex="-1">
+      <div class="row-pastscores center-div" >
+        <div class="placeholder-box">
+         <div class="placeholder-text"> Past Appointments placeholder. </div> 
+          <div class="placeholder-text">  Please press the "Acuity Tool" Button to navigate to the acuity tool.  </div> 
+          </div>
+      </div>
+      <div class="row">
+      <div class="column2-appt">
+         <div class="row-appt appointments-box active-apptbox">
+          <div class="row-apptbox">
+            <div class="text-appt"> Friday, May 1, 2020 with Jane Foster</div>
+            <div class="text-appt2"> 1:00pm - 3:00pm</div> <i class="fa fa-chevron-right arrow-appt" aria-hidden="true"></i>
+          </div>
+          <div class="row-apptbox">
+            <div class="column-start">
+              <div class="text-apptnote"> Meal Prep </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Bathing </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Walking </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Dishes </div>
+            </div>
+          </div>
+        </div>
+
+
+      <div class="row-appt appointments-box">
+          <div class="row-apptbox">
+            <div class="text-appt"> Friday, May 1, 2020 with Jane Foster</div>
+            <div class="text-appt2"> 1:00pm - 3:00pm</div>
+          </div>
+          <div class="row-apptbox">
+            <div class="column-start">
+              <div class="text-apptnote"> Meal Prep </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Bathing </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Walking </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Dishes </div>
+            </div>
+          </div>
+      </div>
+
+
+      <div class="row-appt appointments-box">
+          <div class="row-apptbox">
+            <div class="text-appt"> Friday, May 1, 2020 with Jane Foster</div>
+            <div class="text-appt2"> 1:00pm - 3:00pm</div>
+          </div>
+          <div class="row-apptbox">
+            <div class="column-start">
+              <div class="text-apptnote"> Meal Prep </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Bathing </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Walking </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Dishes </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row-appt appointments-box">
+          <div class="row-apptbox">
+            <div class="text-appt"> Friday, May 1, 2020 with Jane Foster</div>
+            <div class="text-appt2"> 1:00pm - 3:00pm</div>
+          </div>
+          <div class="row-apptbox">
+            <div class="column-start">
+              <div class="text-apptnote"> Meal Prep </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Bathing </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Walking </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Dishes </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="row-appt appointments-box">
+          <div class="row-apptbox">
+            <div class="text-appt"> Friday, May 1, 2020 with Jane Foster</div>
+            <div class="text-appt2"> 1:00pm - 3:00pm</div>
+          </div>
+          <div class="row-apptbox">
+            <div class="column-start">
+              <div class="text-apptnote"> Meal Prep </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Bathing </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Walking </div>
+            </div>
+            <div class="column-start">
+              <div class="text-apptnote"> Dishes </div>
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+
+
+
+<script>
+function alertNonFunctional() {
+  alert("This button is nonfunctional. This is a function already implemented on the client's preexisting application (IntusCare Manager Portal).");
+}
+</script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  <!-- With locals-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js" ></script>
+<!-- Without locals-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" ></script>

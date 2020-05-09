@@ -1,0 +1,56 @@
+<div class="column-profile1">
+      <div class="profile-box">
+        <div class="row-profile" style="margin-top:20px;">
+          <form action="/patients" method="get">
+            <button class="button button-profile"><i class="fa fa-arrow-circle-left arrow-back" aria-hidden="true"></i><span class= "button-text"> Back</span></button>
+          </form> 
+        </div>
+        <div class="row-profile center-div">
+          <span class="profile-name"> 
+            {{patientName}}
+          </span>
+        </div>
+        <div class="row-profile2">
+            <div class="column-profile3">
+              <span class="profile-address"> Address: </span>
+            </div>
+            <div class="column-profile2">
+                <div class="row-profile2">
+                  <span class="profile-address2"> {{patientAddOne}} </span>
+                </div>
+                <div class="row-profile2">
+                  <span class="profile-address2"> {{patientAddTwo}} </span>
+                </div>
+            </div>
+        </div>
+        <div class="row-profile2">
+              <div class="column-profile3">
+                <span class="profile-address"> Phone Number: </span>
+              </div>
+              <div class="column-profile2">
+                  <span class="profile-address2"> 
+                    {{patientPhone}}
+                  </span>
+              </div>
+          </div>
+        <div class="row-profile center-div" style="margin-top:20px;">
+          <div class="profile-circle">
+            <img class="profile-img" src="/images/profile-photo.png"  alt="Intus Care Logo">
+          </div>
+        </div>
+        <div class="row-profile center-div" style="margin-top:10px;">
+          <form action="/{{ patientUpcoming }}" method="get">
+            <button class="button {{ upcomingClass }}"><span class= "button-text"> Upcoming Appointments</span> {{{ upcomingArrow }}} </button>
+           </form>
+        </div>
+        <div class="row-profile center-div">
+           <form action="/{{ patientPast }}" method="get">
+            <button class="button {{ pastClass }}"> <span class= "button-text"> Past Appointments</span> {{{ pastArrow }}} </button>
+           </form>
+        </div>
+        <div class="row-profile center-div">
+          <form action="/{{ patientAcuity }}" method="get">
+            <button class="button {{ acuityClass }}"><span class= "button-text"> Acuity Tool</span> {{{ acuityArrow }}} </button>
+          </form> 
+        </div>
+      </div>
