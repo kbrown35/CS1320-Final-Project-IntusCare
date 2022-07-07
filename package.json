@@ -25,7 +25,7 @@
     "express-handlebars": "^4.0.4",
     "geolocation": "^0.2.0",
     "got": "^11.1.0",
-    "moment": "^2.25.1",
+    "moment": "^2.29.4",
     "nodemon": "^2.0.3",
     "pg": "^8.0.3",
     "stylelint": "^13.3.3",
