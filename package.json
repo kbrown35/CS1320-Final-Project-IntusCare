@@ -21,7 +21,7 @@
     "cookie-parser": "^1.4.5",
     "eslint": "^6.8.0",
     "eslint-plugin-vue": "^6.2.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.4",
     "geolocation": "^0.2.0",
     "got": "^11.1.0",
